@@ -12,14 +12,17 @@ namespace EmailApplication
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        
+        
+        public Form1(string _user)
         {
+            
             InitializeComponent();
+            label4.Text = _user;
+
+            
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
