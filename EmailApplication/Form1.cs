@@ -64,7 +64,7 @@ namespace EmailApplication
                 MessageBox.Show("Message sent to " + Catre1.Text + " !");
             }
 
-            if (Catre2.Visible == true)
+            if (Catre2.Visible == true) 
             {
                 if (Catre2.Text.Length == 0) 
                 {
